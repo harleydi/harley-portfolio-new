@@ -1,0 +1,233 @@
+.App {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: url(./images/syed-ali-74JeU2jfnfk-unsplash.jpg);
+  background-size: cover;
+}
+
+body, html {
+  /* height: 100vh; */
+}
+
+
+
+
+/*  */
+/* NAVBAR */
+/*  */
+
+.navbar {
+  /* background:  #be4f0c; */
+  height: 8%;
+}
+
+.nameLogo {
+  display: flex;
+  font-size: medium;
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: 1.5px;
+  color: darkgray;
+}
+
+a {
+  color: white;
+  margin-right: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F49390;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: larger;
+  letter-spacing: 2px;
+}
+
+.links:hover {
+  /* height: 10%; */
+  /* transition: margin-bottom 2s ease-in-out; */
+  /* transform: scale(2); */
+  /* animation: 3s ease-in-out linear; */
+}
+
+
+/*  */
+/* Homepage  */
+/*  */
+
+
+
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+}
+
+.introduction {
+  margin-top: 100px;
+  color: darkgray;
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  letter-spacing: 10px;
+  color: black;
+}
+
+.brandStatement {
+  text-align: justify;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8%;
+  /* font-family: 'Raleway', sans-serif; */
+  letter-spacing: 3px;
+  font-size: large;
+  font-weight: 600;
+  /* font-family: 'Oswald', sans-serif; */
+}
+
+.homeButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+.hb {
+  /* background: #be4f0c; */
+  border: none;
+  background: #2A2B2A;
+  color: white;
+}
+
+.hb:hover {
+  background: #F49390;
+}
+
+
+/*  */
+/* PORTFOLIO */
+/*  */
+
+.portfolio {
+  /* background: #C1BFB5; */
+  height: 100%;
+  /* opacity: .7; */
+}
+
+.portTitle {
+  text-align: center;
+  margin-top: 5%;
+  /* font-family: 'Libre Baskerville', serif; */
+  letter-spacing: 12px;
+  color: #2A2B2A;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 14%;
+  line-height: normal;
+}
+
+.card {
+  height: fit-content;
+  background: #2A2B2A;
+  opacity: .9;
+}
+
+.card:hover {
+  transform: translateZ(90deg)
+  /* transition; */
+}
+
+.cardButtons {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.cardButton {
+  /* background: linear-gradient(to right, #283c86, #45a247); */
+  border: none;
+}
+
+.card-title {
+  text-align: end;
+  color: black;
+}
+
+.card-subtitle {
+  text-align: center;
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+/*  */
+/* Contact */
+/*  */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactText {
+  margin-top: 20%;
+  color: white;
+}
+
+.contactText2 {
+  color: white;
+}
+
+.icons {
+  margin-top: 30%;
+}
+
+
+
+i {
+  font-size: 5rem;
+  color: #F49390;
+}
+
+i:hover {
+  transform: translate3d(10px, 10px, 10px);
+  transition: 2s ease-out;
+}
+
+/*  */
+/* FOOTER */
+/*  */
+
+.footer {
+  position: relative;
+  min-height: 33%;
+  text-align: center;
+}
+
+h6 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: .8rem;
+  letter-spacing: 2px;
+  color: #2A2B2A;
+}
