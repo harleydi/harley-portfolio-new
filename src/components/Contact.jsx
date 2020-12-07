@@ -1,6 +1,7 @@
 import React from 'react'
 import { OverlayTrigger, Popover, Button } from 'react-bootstrap';
 import Footer from './Footer';
+import './Contact.css'
 
 const Contact = () => {
     const popover = (

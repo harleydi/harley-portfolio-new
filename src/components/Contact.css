@@ -1,0 +1,50 @@
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.contactText {
+    margin-top: 20%;
+    color: white;
+}
+  
+.contactText2 {
+    color: white;
+}
+  
+.icons {
+    margin-top: 30%;
+}
+  
+  
+  
+i {
+    font-size: 5rem;
+    color: #fca311;
+}
+  
+i:hover {
+    transform: translate3d(10px, 10px, 10px);
+    transition: 2s ease-out;
+}
+  
+  /*  */
+  /* FOOTER */
+  /*  */
+  
+.footer {
+    position: relative;
+    min-height: 33%;
+    text-align: center;
+}
+  
+h6 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    color: #2A2B2A;
+}
