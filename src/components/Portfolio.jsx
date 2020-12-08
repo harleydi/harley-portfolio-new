@@ -45,8 +45,8 @@ export default function Portfolio() {
                     <Typography className={classes.white} variant="body1">A website that allows you to find your favorite artist's social media pages as well as a few random songs.</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button className={classes.yellow} size="large">Website</Button>
-                    <Button className={classes.yellow} size="large">Github</Button>
+                    <Button href="https://music-world.netlify.app/" className={classes.yellow} size="large">Website</Button>
+                    <Button href="https://github.com/harleydi/Music-World" className={classes.yellow} size="large">Github</Button>
                 </CardActions>
             </Card>
             <Card className={classes.root}>
@@ -56,8 +56,8 @@ export default function Portfolio() {
                     <Typography className={classes.white} variant="body1">A website that allows you to find ACS centers in NYC via borough.</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button className={classes.yellow} size="large">Website</Button>
-                    <Button className={classes.yellow} size="large">Github</Button>
+                    <Button href="https://github.com/harleydi/MCTS" className={classes.yellow} size="large">Website</Button>
+                    <Button href="https://github.com/harleydi/MCTS" className={classes.yellow} size="large">Github</Button>
                 </CardActions>
             </Card>
             <Card className={classes.root}>
@@ -67,7 +67,7 @@ export default function Portfolio() {
                     <Typography className={classes.white} variant="body1">This is a remake of the Expedia website with eco-friendly options.</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button className={classes.yellow} size="large">Website</Button>
+                    <Button href="http://expedia-flying-four.herokuapp.com/" className={classes.yellow} size="large">Website</Button>
                     <Button className={classes.yellow} size="large">Github</Button>
                 </CardActions>
             </Card>
@@ -79,7 +79,7 @@ export default function Portfolio() {
                 </CardContent>
                 <CardActions>
                     <Button className={classes.yellow} size="large">Website</Button>
-                    <Button className={classes.yellow} size="large">Github</Button>
+                    <Button href="https://github.com/harleydi/Marshall-Hub" className={classes.yellow} size="large">Github</Button>
                 </CardActions>
             </Card>
         </div>
